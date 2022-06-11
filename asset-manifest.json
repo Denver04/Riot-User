@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Riot-User/static/css/main.aed82862.css",
+    "main.js": "/Riot-User/static/js/main.eb552a40.js",
+    "index.html": "/Riot-User/index.html",
+    "main.aed82862.css.map": "/Riot-User/static/css/main.aed82862.css.map",
+    "main.eb552a40.js.map": "/Riot-User/static/js/main.eb552a40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed82862.css",
+    "static/js/main.eb552a40.js"
+  ]
+}
