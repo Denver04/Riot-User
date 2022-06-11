@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: #181a1a;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 154px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addButton{
+  /* margin-top: -200px;
+  margin-right: 230px; */
+  margin-left: 55%;
+}
+.navbar a{
+  color: #efefef;
+    text-decoration: none;
+    font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add{
+  display: flex;
+  flex-direction: column;
+}
+.addheader{ 
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.margin{
+  margin: 20px;
+}
+
+.home-table{
+  display: flex;
+  /* margin: 80px 0px 0 100px; */
+  margin-top: 60px;
+}
+.table-head{
+  height: 10vh;
+}
+.tables{
+  width: 60vw;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-color: #dee2e6;
+  border: 1px solid;
+}
+.table-th{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* margin-top: 16p; */
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* display: flex; */
 }
-
-.App-link {
-  color: #61dafb;
+tr{
+  height: 8vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tbody{
+  background-color:#fbfbf3;
+}
+.td{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.edit-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.h1p{
+  font-weight: bolder;
+  font-size: 40px;
+}
+.go-back{
+  text-decoration: none;
+  border: 2px solid;
+  padding: 6px;
+  border-radius: 7px;
 }
